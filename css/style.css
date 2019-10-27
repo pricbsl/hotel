@@ -1,0 +1,116 @@
+*{
+	margin:0;
+	padding:0;
+	border:0;
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+}
+
+.clear{
+	clear: both;
+}
+
+#corpo {
+	width: 1024px;
+	margin: 0 auto;
+}
+
+#header {
+	background-color: #bf5806;
+	height: 90px;
+}
+
+#logo{
+	float: left;
+	width: 40%;
+}
+
+#logo h1 {
+	color: #FFF;
+	padding: 24px 0 0 24px;
+	text-transform: uppercase;
+}
+
+#endereco {
+	color: white;
+	float: left;
+	padding: 24px 0 0 0;
+	width: 60%;
+}
+
+#banner img {
+	width: 100%;
+}
+
+#menu {
+	height: 60px;
+	background-color: #000;
+}
+
+#menu ul {
+	list-style: none;
+	text-align: center;
+}
+
+#menu ul li {
+	display: inline-block;
+}
+
+#menu ul li a {
+	background-color: #333;
+	color: #FFF;
+	display: inline-block;
+	margin: 0 20px;
+	padding: 20px 50px;
+	text-decoration: none;
+	text-transform:uppercase;
+	transition: color 0.3s, background-color 0.3s, transform 0.3s;
+
+}
+
+#menu ul li a:hover {
+	background-color: #FFF;
+	color: #333;
+	transform: scale(1.10);
+}
+
+#container-cards {
+	padding: 40px 0;
+}
+
+#container-cards .card {
+	box-shadow: 0 0 3px 0px #5a5a5a;
+	float: left;
+	padding: 16px;
+	margin: 0 0 0 30px;
+	width: 300px;
+}
+
+.card .container-img-card {
+	border: 1px solid #aaa;
+	padding: 4px;
+}
+
+.card .container-img-card img {
+	width: 100%;
+}
+
+.card h2 {
+	background-color: #000;
+	border-radius: 25px 0;
+	color: #FFF;
+	padding: 10px 20px;
+	margin: 0 0 16px 0;
+}
+
+.card p {
+	padding: 16px 0;
+}
+
+.card a {
+	background-color: #000;
+	color: #FFF;
+	display: inline-block;
+	padding: 16px;
+	text-decoration: none;
+}
